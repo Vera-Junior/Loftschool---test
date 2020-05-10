@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Shirt | Main Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<section class="hero">
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">      
+                <img src="img/content/logos/logo-main.png" class="logo__pic" alt="lost shirt logo">
+            </a>
+            <a href="mailto:lostinspace@mail.ru" class="mail">
+                <div class="mail__title">По всем вопросам пишите на:</div>
+                <div class="mail__content">lostinspace@mail.ru</div>
+            </a>
+        </header>
+        <div class="hero__content">
+            <ul class="fade-slider">
+                <li class="fade-slider__item fade-slider__item--style-thirts  fade-slider__item--visible">
+                    <div class="fade-slider__text">
+                        <h1 class="lined-text">
+                            <div class="lined-text__word">три</div>
+                            <div class="lined-text__word">футболки</div>
+                            <div class="lined-text__word lined-tex__word--color-yellow">по цене</div>
+                            <div class="lined-text__word lined-tex__word--color-yellow">двух</div>
+                        </h1>
+                    </div>
+                </li>
+                <li class="fade-slider__item fade-slider__item--style-games">
+                    <div class="fade-slider__text">
+                        <h1 class="lined-text lined-text--no-indent">
+                            <div class="lined-text__word"><span>любимые игры</span></div>
+                            <div class="lined-text__word lined-tex__word--color-yellow">на лучших футболках</div>
+                        </h1>
+                    </div>
+                </li>
+                <li class="fade-slider__item fade-slider__item--style-presents">
+                    <div class="fade-slider__text">
+                        <h1 class="lined-text lined-text--no-botton">
+                            <div class="lined-text__word">подарки</div>
+                            <div class="lined-text__word lined-tex__word--color-yellow">для любимых</div>
+                        </h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <aside class="sidebar sidebar--opened">
+            <a href="#" class="sidebar__hamburger">
+                <svg class="sidebar__hamburger-icon">
+                    <use xlink:href="./img/icons-sprite.svg#bars"></use>       
+                </svg>
+            </a>
+            <div class="sidebar__header">
+                <a href="#" class="logo">
+                    <img src="./img/content/logos/logo-main.png" alt="" class="logo__image">
+                </a>
+                <a href="#" class="sidebar__close">
+                    <svg class="sidebar__close-icon">
+                        <use xlink:href="./img/icons-sprite.svg#cross"></use>
+                    </svg>
+                </a>
+            </div>
+            <nav class="side-menu sidebar__menu">
+                <ul class="side-menu__list">
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Детская коллекция</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Мужская коллекция</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Женская коллекция</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Популярные принты</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Новые принты</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Специальные предложения</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Скоро в продаже</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <ul class="filter">
+                <li class="filter__item filter__item--active">
+                    <a href="#" data-filter="popular" class="filter__link">Популярное</a>
+                </li>
+                <li class="filter__item">
+                    <a href="#" data-filter="new" class="filter__link">Новинки</a>
+                </li>
+                <li class="filter__item">
+                    <a href="#" data-filter="bestsellers" class="filter__link">Бестселлеры</a>
+                </li>
+                <li class="filter__item">
+                    <a href="#" data-filter="specials" class="filter__link">Специальные предложение</a>
+                </li>
+                <li class="filter__item">
+                    <a href="#" data-filter="soon" class="filter__link">Скоро в продаже</a>
+                </li>
+        </ul>
+        <ul class="products__list">
+                <li class="products__item new bestsellers">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_01.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+                <li class="products__item new specials soon">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_02.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+                <li class="products__item new popular products__item--color-black products__item--size-bouble">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_03.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+                <li class="products__item new popular soon products__item--color-black products__item--size-bouble">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_04.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+                <li class="products__item new specials soon">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_05.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+                <li class="products__item new">
+                    <div class="products__price">
+                        <div class="products__price-amout">1 800</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_06.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="products__desc">
+                            <div class="products__desc-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>   
+                </li>
+         </ul>
+    </div>
+</section>
+
+<section class="collections">
+    <div class="container">
+        <ul class="collections__list">
+            <li class="collections__item collections__item--type-gues">
+                <a href="#" class="collections__link">
+                    <h2 class="collections__title">Мужская коллекция</h2>
+                    <div class="collections__desc">
+                        Оригинальные, шуточные, полезные и мужественные футболки.
+                    </div>
+                    <div class="btn">просмотреть</div>
+                </a>
+            </li>
+            <li class="collections__item collections__item--type-girls">
+                <a href="#" class="collections__link">
+                    <h2 class="collections__title">Женская коллекция</h2>
+                    <div class="collections__desc">
+                        Подари своей девушке прикольную футболку с надписями, и ты подаришь 
+                        ей, как минимум, еще одну улыбку.
+                    </div>
+                    <div class="btn">Просмотреть</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <nav class="site-menu">
+            <ul class="site-menu__sections">
+                <li class="site-menu__col">
+                    <h3 class="site-menu__title">Информация</h3>
+                    <ul class="site-menu__list">
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">О магазине</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Адреса магазинов</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Как сделать заказ?</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Обмен возврат</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="site-menu__col">
+                    <h3 class="site-menu__title">Футболки</h3>
+                    <ul class="site-menu__list">
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Популярные</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Новинки</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Бестселлеры</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Специальные предложение</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Скоро в продаже</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="site-menu__col">
+                    <h3 class="site-menu__title">коллекция</h3>
+                    <ul class="site-menu__list">
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Детская коллекция</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Женская коллекция</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Мужская коллекция</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Лучшие принты 2018 года</a>
+                        </li>
+                        <li class="site-menu__item">
+                            <a href="#" class="site-menu__link">Лучшие принты 2019 года</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="site-menu__col">
+                    <h3 class="site-menu__title">Контактная информация</h3>
+                    <div class="site-menu__text">
+                        Санкт-Петербург, <br>
+                        ул. Жуковского, д. 12
+                    </div>
+                    <div class="site-menu__text">
+                        <a href="tel.:+78123157235" class="site-menu__text-row">
+                            Телефон: 8 (812) 315-72-35
+                        </a>
+                        <a href="mailto:support@yourwebsite.com" class="site-menu__text-row">
+                            Email: support@yourwebsite.com
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="extras">
+            <div class="extras__col">
+                <a href="" class="extras__best">
+                    Лучшие принты <br>
+                    2019 года
+                </a>
+            </div>
+            <div class="extras__col">
+                <div class="extras__col-socials">
+                    <ul class="socials">
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" id="fb" viewBox="0 0 20.31 37.28">
+                                        <path d="M3.15 35V21.58H1.88a2 2 0 0 1-1.88-2V14.3a2.61 2.61 0 0 1 .91-2c.48-.53 1.21-1.35 1.47-1.62a2.12 2.12 0 0 1 .75-.43 9.55 9.55 0 0 1 1.06-4.49 21.67 21.67 0 0 1 3.16-3.81 7.64 7.64 0 0 1 5-1.95H18a1.93 1.93 0 0 1 2.22 2.22v4.71a2.25 2.25 0 0 1-.63 1.84l-1.22 1.31a2 2 0 0 1 1.95 2.36c-.16 1.39-.48 4.42-.53 5a2.7 2.7 0 0 1-.46 1.4c-.27.34-1.44 1.62-1.91 2.14a2.05 2.05 0 0 1-1.59.6h-.49V33a3.39 3.39 0 0 1-.37 1.45c-.31.39-1.58 1.83-2.06 2.34a2.29 2.29 0 0 1-1.69.51H5.29A2 2 0 0 1 3.15 35z"/></use>
+                                        <path fill="#fff" d="M18.36 12h-5V8.79a1.3 1.3 0 0 1 1.38-1.51h3.51V1.9h-4.8c-5.36 0-6.58 4-6.58 6.58v3.59H3.78v5.54h3.1V33.3h6.5V17.58h4.4z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" id="twitter" viewBox="0 0 37.77 31.38">
+                                    <path d="M.45 25.71c.8-.67 2.11-1.89 2.7-2.27a1.93 1.93 0 0 1 1.4-.32h1.06a7.45 7.45 0 0 1-1.87-3c-.26-.84-.07-1 0-1.26a8.2 8.2 0 0 1-2.48-6A1.74 1.74 0 0 1 2 11.5a8.55 8.55 0 0 1-.69-3.57 12.38 12.38 0 0 1 .89-3.22 3.72 3.72 0 0 1 1-1.3c.37-.29 1.65-1.36 2.06-1.73a1.67 1.67 0 0 1 2.49.17c4.06 4.69 8.37 5.54 8.37 5.54a12.62 12.62 0 0 1 1.75-2.72c.69-.59 3.16-2.7 3.7-3.14a8.21 8.21 0 0 1 10 .37A11.31 11.31 0 0 0 34.38.77a1.65 1.65 0 0 1 2.19 2.4c1.66.34 1.25 1.92.84 2.65a29.1 29.1 0 0 1-2.83 3.08 20.55 20.55 0 0 1-6.91 15.44c-.65.56-3.33 2.77-4.43 3.6a20.3 20.3 0 0 1-12 3.42 19.86 19.86 0 0 1-10.32-3 1.67 1.67 0 0 1-.47-2.65z"/>
+                                    <path fill="#fff" d="M36.19 4.75a13.07 13.07 0 0 1-3.78 1 6.58 6.58 0 0 0 2.89-3.6 13.15 13.15 0 0 1-4.17 1.59 6.58 6.58 0 0 0-11.19 6A18.65 18.65 0 0 1 6.4 2.87a6.58 6.58 0 0 0 2 8.77 6.55 6.55 0 0 1-3-.82v.08a6.57 6.57 0 0 0 5.27 6.44 6.6 6.6 0 0 1-1.67.24 6.5 6.5 0 0 1-1.23-.12A6.58 6.58 0 0 0 13.9 22a13.25 13.25 0 0 1-9.75 2.72 18.59 18.59 0 0 0 10.07 3c12.08 0 18.69-10 18.69-18.69v-.89a13.31 13.31 0 0 0 3.28-3.39z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" id="insta" viewBox="0 0 36.41 36.37">
+                                    <path d="M29.37 0H9.09a6.93 6.93 0 0 0-4.93 2.26C2.78 3.62 2.62 3.77 1.6 4.88A7.14 7.14 0 0 0 0 9.08v20.75a6.6 6.6 0 0 0 6.54 6.54h20.75a6.66 6.66 0 0 0 4.59-1.94c1-1.09 1.89-1.86 2.91-2.91a7.18 7.18 0 0 0 1.61-4.25V6.51C36.41 2.88 33.43 0 29.37 0z"/>
+                                    <path fill="#fff" d="M28.86 1.62H10.12a5.91 5.91 0 0 0-5.9 5.9v18.74a5.91 5.91 0 0 0 5.9 5.9h18.75a5.91 5.91 0 0 0 5.9-5.9V7.52a5.91 5.91 0 0 0-5.91-5.9zm1.69 3.51h.68v5.18h-5.16V5.13zm-15.4 8.63a5.37 5.37 0 1 1-1 3.14 5.37 5.37 0 0 1 1-3.14zm16.64 12.51a2.93 2.93 0 0 1-2.93 2.93H10.12a2.93 2.93 0 0 1-2.92-2.93V13.76h4.57a8.35 8.35 0 1 0 15.47 0h4.56z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg class="socials__icon" xmlns="http://www.w3.org/2000/svg" id="pin" viewBox="0 0 37.5 37.44">
+                                    <path d="M7.24 5L4.7 7.59c-6.71 7-6.12 18.52 1.06 25.13 5 5 14.76 7 23.24 1a44.71 44.71 0 0 0 3.51-3.43A17.87 17.87 0 0 0 7.23 5z"/>
+                                    <path fill="#fff" d="M19.87 1.63a16 16 0 0 0-6.43 30.67 14.07 14.07 0 0 1 .28-3.67l2.06-8.72a6.14 6.14 0 0 1-.51-2.53c0-2.37 1.37-4.14 3.09-4.14a2.14 2.14 0 0 1 2.16 2.4c0 1.46-.94 3.65-1.41 5.68a2.48 2.48 0 0 0 2.53 3.08c3 0 5.08-3.9 5.08-8.51 0-3.51-2.36-6.14-6.66-6.14A7.58 7.58 0 0 0 12.18 17v.39a4.62 4.62 0 0 0 1.05 3.14.77.77 0 0 1 .23.89c-.08.29-.25 1-.32 1.3a.55.55 0 0 1-.63.46l-.17-.05c-2.24-.91-3.25-3.36-3.25-6.12 0-4.55 3.83-10 11.44-10 6.11 0 10.13 4.42 10.13 9.17 0 6.28-3.49 11-8.63 11a4.56 4.56 0 0 1-3.9-2s-.93 3.69-1.12 4.4A13.38 13.38 0 0 1 15.38 33a16 16 0 1 0 4.55-31.36z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="./scripts/sidebar-menu.js"></script>
+<script src="./scripts/fade-slider.js"></script>
+<script src="./scripts/filter.js"></script>
+</body>
+</html>
